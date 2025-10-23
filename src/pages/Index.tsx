@@ -72,7 +72,7 @@ const Index = () => {
                   />
                 </div>
                 <h3 className="text-3xl font-bold text-secondary mb-3">Стеша</h3>
-                <p className="text-lg text-foreground/70">Вторая пушистая красавица</p>
+                <p className="text-lg text-foreground/70">Пушистый любимец</p>
               </CardContent>
             </Card>
           </div>
