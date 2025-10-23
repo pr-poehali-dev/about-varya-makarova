@@ -49,12 +49,16 @@ const Index = () => {
             Мои любимые кошки
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="group hover:shadow-2xl transition-all duration-300 animate-scale-in border-2 border-secondary/30 hover:border-secondary">
+            <Card className="group hover:shadow-2xl transition-all duration-300 animate-scale-in border-2 border-secondary/30 hover:border-secondary overflow-hidden">
               <CardContent className="p-8 text-center">
-                <div className="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-secondary to-muted rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Icon name="Cat" size={50} className="text-white" />
+                <div className="w-full h-64 mb-6 rounded-xl overflow-hidden group-hover:scale-105 transition-transform">
+                  <img 
+                    src="https://cdn.poehali.dev/files/cb0c512e-fedd-4346-b41c-d6a4ab026c7a.jpeg" 
+                    alt="Боня" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h3 className="text-3xl font-bold text-secondary mb-3">Кошка №1</h3>
+                <h3 className="text-3xl font-bold text-secondary mb-3">Боня</h3>
                 <p className="text-lg text-foreground/70">Моя пушистая любимица</p>
               </CardContent>
             </Card>
