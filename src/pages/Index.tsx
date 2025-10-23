@@ -121,32 +121,43 @@ const Index = () => {
             <Icon name="Heart" size={50} className="inline-block mr-4 text-primary" />
             Моё призвание — вожатство
           </h2>
-          <Card className="border-2 border-primary/30 hover:border-primary transition-all shadow-2xl animate-scale-in">
+          <Card className="border-2 border-primary/30 hover:border-primary transition-all shadow-2xl animate-scale-in overflow-hidden">
             <CardContent className="p-10">
-              <div className="text-center">
-                <div className="inline-block mb-6">
-                  <div className="relative">
-                    <div className="w-40 h-40 bg-gradient-to-br from-primary via-accent to-secondary rounded-full flex items-center justify-center shadow-2xl">
-                      <Icon name="Award" size={80} className="text-white" />
-                    </div>
-                    <div className="absolute -top-2 -right-2 bg-accent text-accent-foreground w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg">
-                      🏆
-                    </div>
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="order-2 md:order-1">
+                  <div className="w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
+                    <img 
+                      src="https://cdn.poehali.dev/files/542ffb85-6330-4290-9522-566556309bed.png" 
+                      alt="Вожатство в ДОЛ Солнечный" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
-                <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Лучшая вожатая
-                </h3>
-                <p className="text-2xl text-foreground/80 mb-4">
-                  ДОЛ "Солнечный"
-                </p>
-                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full text-xl font-bold shadow-xl">
-                  <Icon name="Sun" size={28} />
-                  <span>1 смена</span>
+                <div className="text-center md:text-left order-1 md:order-2">
+                  <div className="inline-block mb-6">
+                    <div className="relative">
+                      <div className="w-32 h-32 bg-gradient-to-br from-primary via-accent to-secondary rounded-full flex items-center justify-center shadow-2xl">
+                        <Icon name="Award" size={64} className="text-white" />
+                      </div>
+                      <div className="absolute -top-2 -right-2 bg-accent text-accent-foreground w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg">
+                        🏆
+                      </div>
+                    </div>
+                  </div>
+                  <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                    Лучшая вожатая
+                  </h3>
+                  <p className="text-2xl text-foreground/80 mb-4">
+                    ДОЛ "Солнечный"
+                  </p>
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full text-xl font-bold shadow-xl mb-6">
+                    <Icon name="Sun" size={28} />
+                    <span>1 смена</span>
+                  </div>
+                  <p className="text-lg text-foreground/70 mt-6">
+                    Вожатство — это не просто работа, это дело моей души. Каждая смена приносит новые эмоции, знакомства и незабываемые моменты!
+                  </p>
                 </div>
-                <p className="text-lg text-foreground/70 mt-8 max-w-2xl mx-auto">
-                  Вожатство — это не просто работа, это дело моей души. Каждая смена приносит новые эмоции, знакомства и незабываемые моменты!
-                </p>
               </div>
             </CardContent>
           </Card>
