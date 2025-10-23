@@ -59,7 +59,7 @@ const Index = () => {
                   />
                 </div>
                 <h3 className="text-3xl font-bold text-secondary mb-3">Боня</h3>
-                <p className="text-lg text-foreground/70">Моя пушистая любимица</p>
+                <p className="text-lg text-foreground/70">Пушистый любимец</p>
               </CardContent>
             </Card>
             <Card className="group hover:shadow-2xl transition-all duration-300 animate-scale-in border-2 border-secondary/30 hover:border-secondary overflow-hidden" style={{animationDelay: '0.1s'}}>
@@ -72,7 +72,7 @@ const Index = () => {
                   />
                 </div>
                 <h3 className="text-3xl font-bold text-secondary mb-3">Стеша</h3>
-                <p className="text-lg text-foreground/70">Пушистый любимец</p>
+                <p className="text-lg text-foreground/70">Моя пушистая любимица</p>
               </CardContent>
             </Card>
           </div>
