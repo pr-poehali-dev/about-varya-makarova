@@ -22,9 +22,11 @@ const Index = () => {
         <div className="container mx-auto max-w-5xl">
           <div className="text-center animate-fade-in">
             <div className="inline-block p-2 bg-gradient-to-r from-primary via-secondary to-accent rounded-full mb-6">
-              <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center">
-                <Icon name="User" size={60} className="text-primary" />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/dfbee72a-e805-40be-ab37-4519aac7ce2e.jpeg" 
+                alt="Варвара Макарова" 
+                className="w-40 h-40 rounded-full object-cover shadow-xl"
+              />
             </div>
             <h2 className="text-5xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
               Привет! Я Варя
