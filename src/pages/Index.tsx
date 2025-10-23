@@ -62,12 +62,16 @@ const Index = () => {
                 <p className="text-lg text-foreground/70">Моя пушистая любимица</p>
               </CardContent>
             </Card>
-            <Card className="group hover:shadow-2xl transition-all duration-300 animate-scale-in border-2 border-secondary/30 hover:border-secondary" style={{animationDelay: '0.1s'}}>
+            <Card className="group hover:shadow-2xl transition-all duration-300 animate-scale-in border-2 border-secondary/30 hover:border-secondary overflow-hidden" style={{animationDelay: '0.1s'}}>
               <CardContent className="p-8 text-center">
-                <div className="w-24 h-24 mx-auto mb-6 bg-gradient-to-br from-muted to-secondary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Icon name="Cat" size={50} className="text-white" />
+                <div className="w-full h-64 mb-6 rounded-xl overflow-hidden group-hover:scale-105 transition-transform">
+                  <img 
+                    src="https://cdn.poehali.dev/files/5a71e496-c01e-4d41-a04c-84c7d8d62cdc.jpeg" 
+                    alt="Стеша" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <h3 className="text-3xl font-bold text-secondary mb-3">Кошка №2</h3>
+                <h3 className="text-3xl font-bold text-secondary mb-3">Стеша</h3>
                 <p className="text-lg text-foreground/70">Вторая пушистая красавица</p>
               </CardContent>
             </Card>
